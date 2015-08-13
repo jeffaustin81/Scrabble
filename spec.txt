@@ -1,0 +1,15 @@
+1) takes a letter and returns the scrabble value of the letter
+	Input: "A"
+	Output: 1
+2) takes a two letter word and returns the scrabble value
+	Input:"an"
+	Output: 2
+3) takes a three letter word and outputs the value 
+	Input:"zoo"
+	Output: 12
+4) takes a four letter word and returns the scrabble value 
+	Input: "jack"
+	Output 17
+5) takes word of any length and returns scrabble value 
+	Input:"encyclopedia"
+	Output:21
