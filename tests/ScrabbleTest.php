@@ -38,5 +38,23 @@
 			$result = $test->score($input);
 			$this->assertEquals(17, $result);
 		}
+		
+		function test_any_length()
+		{
+			$test = new Scrabble;
+			$input = "encyclopedia";
+			
+			$result = $test->score($input);
+			$this->assertEquals(22, $result);
+		}
+		
+		function test_invalid_input()
+		{
+			$test = new Scrabble;
+			$input = "encycl2";
+			
+			$result = $test->score($input);
+			$this->assertEquals("Error not valid input"	, $result);
+		}
 	}	
 ?>
